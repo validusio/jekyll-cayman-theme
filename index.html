@@ -4,10 +4,27 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+
+  <img src="images/awsmarketplace.gif" height="60" width="180" align="right"/>
+
+  <h1><img src="images/network.png" alt="network" height="28" width="28"/>Deep Learning AMI</h1>
+
+  <p>
+    <b><em>Accelerate</em></b> GPU-based workflows on <b><em>Amazon Web Services</em></b>
+  </p>
+  <p>Spend less time compiling, instaling, and configuring <b><em>Machine Intelligence</em></b> tools.
+  The Validus Deep Learning Amazon Machine Image (AMI) is pre-packaged with popular machine learning frameworks:
+  </p>
+  <span id="ml-tools">
+    <img src="images/tensorflow.png" alt="tensorflow" height="100" width="360"/>
+    <img src="images/cudnn.png" alt="cudnn" height="100" width="200"/>
+    <img src="images/caffe2.png" alt="caffe2" height="100" width="100"/>
+    <img src="images/jupyter.png" alt="jupyter" height="100" width="100"/>
+    <img src="images/anaconda.png" alt="anaconda" height="100" width="200"/>
+    <img src="images/cuda.png" alt="cuda" height="100" width="110"/>
+    <img src="images/mxnet.png" alt="mxnet" height="100" width="266"/>
+    <img src="images/pytorch.png" alt="pytorch" height="70" width="350"/>
+    <img src="images/keras.png" alt="keras" height="80" width="300" align="right"/>
+  </span>
+
 </div>
