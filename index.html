@@ -7,15 +7,24 @@ title: {{ site.name }}
 
   <img src="images/awsmarketplace.gif" height="60" width="180" align="right"/>
 
-  <h1><img src="images/network.png" alt="network" height="28" width="28"/>Deep Learning AMI</h1>
+  <h1>
+    <img src="images/network.png" alt="network" height="28" width="28"/>
+    Deep Learning AMI
+  </h1>
 
   <p>
-    <b><em>Accelerate</em></b> GPU-based workflows on <b><em>Amazon Web Services</em></b>
+    <b><em>Accelerate</em></b>
+    GPU-based workflows on <b><em>Amazon Web Services</em></b>
   </p>
-  <p>Spend less time compiling, installing, and configuring <b><em>Machine Intelligence</em></b> tools.
-  The Validus Deep Learning Amazon Machine Image (AMI) is pre-packaged with popular machine learning frameworks:
+
+  <p>
+    Spend less time compiling, installing, and configuring
+    <b><em>Machine Intelligence</em></b> tools.
+    The Validus Deep Learning Amazon Machine Image (AMI) is pre-packaged with
+    popular machine learning frameworks:
   </p>
-  <span id="ml-tools">
+
+  <div id="ml-tools">
     <img src="images/tensorflow.png" alt="tensorflow" height="100" width="360"/>
     <img src="images/cudnn.png" alt="cudnn" height="100" width="200"/>
     <img src="images/caffe2.png" alt="caffe2" height="100" width="100"/>
@@ -24,7 +33,45 @@ title: {{ site.name }}
     <img src="images/cuda.png" alt="cuda" height="100" width="110"/>
     <img src="images/mxnet.png" alt="mxnet" height="100" width="266"/>
     <img src="images/pytorch.png" alt="pytorch" height="70" width="350"/>
-    <img src="images/keras.png" alt="keras" height="80" width="300" align="right"/>
-  </span>
+    <img src="images/keras.png" alt="keras" height="80" width="300" />
+  </div>
+
+  <h2>Getting Started</h2>
+
+  <p>
+    The Deep Learning AMI is available on the <b> AWS Marketplace: </b>
+    <a href="{{ site.aws_marketplace_url }}">{{ site.aws_marketplace_url }}</a>
+  </p>
+
+  <p>
+    Latest versions of pip packages of popular deep learning frameworks
+    come pre-installed. Also included:
+
+    <ul>
+      <li>Apache MXNet</li>
+      <li>Caffe2</li>
+      <li>TensorFlow</li>
+      <li>PyTorch</li>
+      <li>Keras</li>
+      <li>CNTK</li>
+      <li>Theano</li>
+      <li>Anaconda Data Science packages</li>
+    </ul>
+
+    The AMI is designed to provide a stable, secure, and high performance
+    execution environment for running deep learning applications on Amazon
+    EC2. The Deep Learning AMI is free to try for 10 days.  During this
+    trial there will be no hourly charges for the instance.  However, AWS
+    infrastructure charges still apply.  Free Trials will automatically
+    convert to paid hourly subscription upon expiration.
+  </p>
+
+  <h2>Examples</h2>
+
+  <p>
+    The Validus Github page demonstrates examples of executing various
+    Machine Learning on the Deep Learning AMI
+  </p>
+  <a href="https://github.com/validusio/deep-learning">https://github.com/validusio/deep-learning</a>
 
 </div>

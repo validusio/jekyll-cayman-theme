@@ -4,6 +4,8 @@ baseurl: ""
 paginate: 1
 locale: "en"
 
+aws_marketplace_url: https://aws.amazon.com
+
 plugins:
   - jekyll-paginate
 
