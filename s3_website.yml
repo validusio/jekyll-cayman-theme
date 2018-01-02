@@ -1,0 +1,4 @@
+profile: validus
+
+cloudfront_distribution_id: E3PWXYN3GPN1C7
+s3_bucket: www-us-east-1-global-validus
